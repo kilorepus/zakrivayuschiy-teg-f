@@ -13,4 +13,184 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+
+  font-family: var(--main-font);
+  font-variation-settings: 'wdth' var(---card-text-weight);
+
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-size: cover;
+  min-inline-size: 375px;
+}
+
+.dynamic-width {
+  inline-size: var(--width-size);
+}
+
+.header {
+  margin-top: 100px;
+  height: 327px;
+  min-width: 375px;
+
+  background-color: #FFFFFF;
+  border: solid black 2px;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.logo-group {
+  width: clamp(343px, 90%, 455px);
+  margin: 120px 14px;
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 21px;
+
+  /* justify-self: center;
+  justify-content: center;
+  align-content: center; */
+}
+
+.header__title {
+  font-family: PressStart2P;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 49px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+.header__paragraph {
+  font-family: PressStart2P;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.main {
+  background-color: #E7E7E7;
+}
+
+.card-container {
+  margin-top: 100px;
+  background-color: #FFFFFF;
+  border: solid black 2px;
+}
+
+.card-title {
+
+  margin: 5px 50px 4px 10px;
+
+  font-family: Inter;
+  font-weight: var(--card-title-font-weight);
+
+  font-style: Bold;
+  font-size: 18px;
+
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+}
+
+.card-picture {
+  position: relative;
+  block-size: 376px;
+  border: 2px 0x;
+  background-image: url("../images/image.png");
+  background-size: cover;
+
+
+  overflow: hidden
+}
+
+.label {
+  position: absolute;
+  top: 26px;
+  right: 25px;
+
+  font-family: PressStart2P;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+
+
+   text-shadow:
+  -1px 0 #FFFFFF, 
+  0 1px #FFFFFF, 
+  1px 0 #FFFFFF, 
+  0 -1px #FFFFFF; 
+
+  color: rgb(0, 0, 0, 0.5);
+
+  mix-blend-mode: hard-light;
+
+}
+
+@supports((text-stroke: 1px #c3b8b8) or (-webkit-text-stroke: 1px #c3b8b8)) {
+  .label {
+    -webkit-text-stroke: 1px #c3b8b8;
+    text-stroke: 1px #c3b8b8;
+    text-shadow: none;
+    color: rgb(0, 0, 0, 0.5);
+  }
+} 
+
+
+.content {
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 24px;
+}
+
+.card-text {
+  font-family: Inter;
+  font-weight: 410;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 21px;
+  letter-spacing: 0%;
+
+}
+
+.button-body {
+  margin-top: 1px;
+  border: 2px solid black;
+  background-color: transparent;
+  width: 130px;
+  padding: 12.5px 35px 10px 35px;
+  align-self: end;
+
+  font-family: PressStart2P;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 90%;
+  letter-spacing: 0%;
+
 }
