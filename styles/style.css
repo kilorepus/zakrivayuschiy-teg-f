@@ -13,6 +13,7 @@
 .page {
   font-family: var(--main-font);
   font-variation-settings: "wgth" var(---card-text-font-weight);
+  font-variation-settings: "wgth" 410;
 
   background-image: var(--bg-image);
   background-attachment: fixed;
