@@ -177,7 +177,6 @@ main {
 }
 
 .like-button {
-  margin-top: 2px;
   display: inline-flex;
   justify-content: end;
   align-items: center;
@@ -203,7 +202,7 @@ main {
 
 .like-icon {
   transform-origin: center;
-  padding: 0;
+  /* padding: 0; */
 }
 
 .card__like-button {
@@ -318,6 +317,10 @@ main {
   animation: sparks 0.3s 0.3s ease-in;
 }
 
+.like-icon.is-liked .heart {
+  animation: scale 0.3s 0.1s ease-in;
+}
+
 .save-button {
   padding: none;
   box-sizing: border-box;
@@ -418,7 +421,7 @@ dialog::backdrop {
 
 }
 
-@media (width <= 375px) {
+/* @media (width <= 375px) {
   .save-button {
     width: 306px;
     height: 84px;
@@ -445,4 +448,8 @@ dialog::backdrop {
   .dialog-button {
     width: 261px;
   }
-}
+
+  .like-button {
+    margin-top: 4px;
+  }
+} */
