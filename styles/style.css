@@ -15,7 +15,6 @@
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
-  /* min-inline-size: 375px; */
 }
 
 .dynamic-width {
@@ -25,7 +24,6 @@
 .header {
   margin-top: 100px;
   height: clamp(20.438rem, 17.481rem + 12.615vw, 23rem);
-  /* min-width: 375px; */
 
   background-color: #ffffff;
   border: solid black 2px;
