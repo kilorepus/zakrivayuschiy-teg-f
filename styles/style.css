@@ -421,7 +421,7 @@ dialog::backdrop {
 
 }
 
-/* @media (width <= 375px) {
+@media (width <= 375px) {
   .save-button {
     width: 306px;
     height: 84px;
@@ -452,4 +452,4 @@ dialog::backdrop {
   .like-button {
     margin-top: 4px;
   }
-} */
+}
