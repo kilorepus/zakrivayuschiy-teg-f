@@ -78,11 +78,8 @@ main {
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--card-title-font-weight);
 
-  font-style: Bold;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 121%;
-  letter-spacing: 0%;
   vertical-align: middle;
 }
 
@@ -143,11 +140,8 @@ main {
 
   font-family: var(--accent-font);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
@@ -176,11 +170,8 @@ main {
 .card-text {
   font-family: var(--main-font);
   font-variation-settings: "wght" var(--card-text-font-weight);
-  font-style: Regular;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 21px;
-  letter-spacing: 0%;
   margin-bottom: 25px;
 }
 
@@ -208,11 +199,8 @@ main {
 
   font-family: var(--accent-font);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 90%;
-  letter-spacing: 0%;
 }
 
 .common-button:focus-visible {
@@ -341,11 +329,8 @@ main {
 
   font-family: var(--accent-font);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 90%;
-  letter-spacing: 0%;
 
   background-color: #ffffff;
 }
@@ -382,16 +367,12 @@ main {
 .dialog-button__text {
   font-family: var(--accent-font);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 150%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
 .dialog-label {
-  /* width: 261px; */
   display: flex;
   gap: 20px;
 }
@@ -400,11 +381,8 @@ main {
   width: 293px;
   font-family: var(--accent-font);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14px;
-  leading-trim: NONE;
   line-height: 90%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 
   border: 2px solid black;
