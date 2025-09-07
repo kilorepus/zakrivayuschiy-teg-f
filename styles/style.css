@@ -87,7 +87,7 @@ main {
   padding: 5px 50px 3px 10px;
 
   font-family: var(--main-font);
-  font-weight: var(--card-title-font-weight);
+  font-variation-settings: "wgth" var(---card-title-font-weight);
 
   font-style: Bold;
   font-size: 18px;
@@ -186,7 +186,7 @@ main {
 
 .card-text {
   font-family: var(--main-font);
-  font-weight: var(--card-text-font-weight);
+  font-variation-settings: "wgth" var(---card-text-font-weight);
   font-style: Regular;
   font-size: 18px;
   leading-trim: NONE;
