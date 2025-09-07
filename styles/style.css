@@ -12,7 +12,7 @@
 
 .page {
   font-family: var(--main-font);
-  font-variation-settings: "wdth" var(---card-text-font-weight);
+  font-variation-settings: "wgth" var(---card-text-font-weight);
 
   background-image: var(--bg-image);
   background-attachment: fixed;
@@ -122,10 +122,11 @@ main {
 }
 
 .third-sprint-end {
-  filter: invert(100%);
+  filter: contrast(175%) brightness(103%);
 }
 
 .here-im {
+  filter: hue-rotate(0.1turn);
 }
 
 .card-picture {
@@ -225,7 +226,7 @@ main {
   letter-spacing: 0%;
 }
 
-.common-button:focus {
+.common-button:focus-visible {
   outline: none;
   box-shadow: 2px 2px var(--contour-color);
   transition: box-shadow 0.3s ease;
@@ -280,6 +281,10 @@ main {
 .sparks {
   fill: var(--animation-fill-color);
   opacity: 0;
+}
+
+.card__icon-button:focus-visible {
+  border: 2px solid black;
 }
 
 .card__icon-button:hover .core {
