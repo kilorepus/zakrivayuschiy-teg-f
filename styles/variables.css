@@ -18,7 +18,6 @@
     ),repeating-linear-gradient(#e7e7e7 0.01%, #1a1a1a);
 
   --width-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
-  /* --width-size: clamp(23.438rem, 0rem + 100vw, 43.75rem); */
 
   --contour-color: black;
   --animation-fill-color: red;
