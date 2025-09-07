@@ -234,6 +234,8 @@ main {
 .card__icon-button {
   background-color: transparent;
   border: none;
+  padding: none;
+  height: 38px;
 }
 
 .contour {
