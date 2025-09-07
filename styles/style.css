@@ -144,17 +144,16 @@ main {
 
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
 
-  color: rgb(0, 0, 0, 0.5);
+  opacity: 0.5;
 
   mix-blend-mode: hard-light;
 }
 
-@supports ((text-stroke: 1px #c3b8b8) or (-webkit-text-stroke: 1px #c3b8b8)) {
+@supports ((text-stroke: 1px #ffffff) or (-webkit-text-stroke: 1px #ffffff)) {
   .label {
-    -webkit-text-stroke: 1px #c3b8b8;
-    text-stroke: 1px #c3b8b8;
+    -webkit-text-stroke: 1px #ffffff;
+    text-stroke: 1px #ffffff;
     text-shadow: none;
-    color: rgb(0, 0, 0, 0.5);
   }
 }
 
