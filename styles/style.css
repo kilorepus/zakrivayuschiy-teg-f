@@ -82,35 +82,35 @@ main {
   vertical-align: middle;
 }
 
-.before-stage {
+.blur {
   filter: blur(5px);
 }
 
-.first-sprint-begin {
+.saturate {
   filter: saturate(2.2);
 }
 
-.first-sprint-end {
+.brightness {
   filter: brightness(30%);
 }
 
-.second-sprint-begin {
+.contrast {
   filter: contrast(250%);
 }
 
-.second-sprint-end {
+.grayscale {
   filter: grayscale(80%);
 }
 
-.third-sprint-begin {
+.hue-rotate {
   filter: hue-rotate(0.5turn);
 }
 
-.third-sprint-end {
+.contrast-brightness {
   filter: contrast(175%) brightness(103%);
 }
 
-.here-im {
+.hue-rotate-small {
   filter: hue-rotate(0.1turn);
 }
 
