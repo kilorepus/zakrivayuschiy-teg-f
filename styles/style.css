@@ -203,7 +203,6 @@ main {
 .common-button:focus-visible {
   outline: none;
   box-shadow: 2px 2px var(--contour-color);
-  transition: box-shadow 0.3s ease;
 }
 
 .button__text {
