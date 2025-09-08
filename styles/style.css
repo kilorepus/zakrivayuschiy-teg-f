@@ -116,7 +116,6 @@ main {
 
 .card-picture {
   position: relative;
-  block-size: clamp(23.438rem, 0rem + 100vw, 43.75rem);
 
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -202,7 +201,7 @@ main {
 
 .like-icon {
   transform-origin: center;
-  /* padding: 0; */
+    /* padding: 0; */
 }
 
 .card__like-button {
@@ -319,6 +318,7 @@ main {
 
 .like-icon.is-liked .heart {
   animation: scale 0.3s 0.1s ease-in;
+  transform-origin: center;
 }
 
 .save-button {
